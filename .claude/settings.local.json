@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod *)",
+      "Bash(mkdir -p /Users/vimalraj/p/mongo-hack/server/internal/config /Users/vimalraj/p/mongo-hack/server/internal/database /Users/vimalraj/p/mongo-hack/server/internal/handlers /Users/vimalraj/p/mongo-hack/server/internal/router)",
+      "Bash(npm run *)"
+    ],
+    "additionalDirectories": [
+      "/Users/vimalraj/p/mongo-hack/server/internal"
+    ]
+  }
+}
