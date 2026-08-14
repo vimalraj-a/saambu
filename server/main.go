@@ -27,7 +27,7 @@ func main() {
 		}
 	}()
 
-	r := router.New(mongoClient)
+	r := router.New(mongoClient, cfg)
 
 	log.Printf("listening on :%s", cfg.Port)
 	if err := r.Run(":" + cfg.Port); err != nil {
